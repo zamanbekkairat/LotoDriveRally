@@ -1,0 +1,240 @@
+@media (min-width: 576px) {
+    main {
+        .reiting .head-block {
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 101px 0 0;
+        }
+        .games {
+            .game-blocks {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+}
+
+@media (min-height: 800px) {
+    .out-of-header {
+        height: 101vh;
+    }
+    main {
+        .terms {
+            padding: 8% 0 0;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .out-of-header {
+        height: 100vh;
+        margin-top: 0;
+        padding-top: 180px;
+        &::before {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    main .textSumm2 .allScore2 {
+        font-size: 22px;
+    }
+    main {
+        h2 {
+            font-size: 30px;
+        }
+        .head-block {
+            margin: 44px auto 16px;
+            max-width: 650px;
+            width: 100%;
+            &.bkg-col {
+                &::before {
+                    height: 124%;
+                }
+            }
+        }
+        .tablinks {
+            width: 345px;
+            &+.tablinks {
+                margin-top: 0;
+            }
+        }
+        .menu-block {
+            &.active {
+                padding: 9%;
+                .container {
+                    position: relative;
+                }
+            }
+        }
+        .welcome {
+            .bgVideo {
+                transform: translateX(-50%) translateY(-50%) scaleX(1.23);
+            }
+            .firstSpan,
+            .timerDo {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+            .allScore,
+            .timer-section {
+                font-size: 22px;
+            }
+            .timer {
+                margin-top: 0;
+            }
+            .icons {
+                img {
+                    width: 60px;
+                }
+            }
+            &-text {
+                margin: 0 auto 25%;
+            }
+            .rules {
+                font-size: 18px;
+            }
+            .visual {
+                margin-top: 0;
+            }
+        }
+        .visual {
+            img {
+                width: 509px;
+            }
+            &::before {
+                background: url(../img/visual-bg-desk.svg) no-repeat;
+                background-size: contain;
+                height: 761.427px;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 1383.608px;
+            }
+        }
+        .reiting {
+            .head-block {
+                max-width: 622px;
+                padding: 102px 0 10px;
+            }
+        }
+        .current-player-wrapper::before {
+            background: url(../img/myPlace-desk.svg) no-repeat;
+            background-size: cover;
+            width: 100vw;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        ol.rating-list>li>.inner {
+            gap: 16px;
+        }
+        .winner-avatar {
+            height: 88px;
+            width: 88px;
+        }
+        .games {
+            .game {
+                &-blocks {
+                    gap: 16px;
+                }
+                &-block {
+                    max-height: 100%;
+                    max-width: none;
+                    width: 100%;
+                }
+            }
+        }
+        .faq {
+            &::before {
+                background-size: cover;
+            }
+            .accordion {
+                &__text {
+                    align-items: center;
+                    border-radius: 6px;
+                    display: flex;
+                    font-size: 18px;
+                    padding: 15px 60px 15px 30px;
+                    &:after {
+                        right: 30px;
+                    }
+                }
+                &__body {
+                    padding: 30px;
+                    * {
+                        font-size: 16px;
+                    }
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .terms {
+            h3 {
+                font-size: 20px;
+                margin: 16px 0 12px;
+            }
+            p {
+                font-size: 14px;
+            }
+            &-logo {
+                height: 224px;
+                margin: 80px 0 160px;
+                width: 500px;
+            }
+            &-blocks {
+                padding: 3% 0 80px;
+            }
+            &-text {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
+                text-align: center;
+            }
+            &-block {
+                &__item {
+                    text-align: center;
+                    img {
+                        width: 87px;
+                    }
+                }
+                &:last-child {
+                    grid-column: span 2;
+                }
+            }
+            .close-icon {
+                top: 40px;
+            }
+        }
+        .prizes {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .text {
+                font-size: 20px;
+                max-width: 500px;
+                padding: 20px 32px;
+            }
+            &-sum {
+                padding: 22px 32px;
+                &:first-child {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                .place {
+                    font-size: 18px;
+                    width: 130px;
+                }
+                .increase {
+                    width: 215px;
+                }
+            }
+        }
+        .js-tab {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@300;400;500;0,700;1,700&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://static.sz.kz/landings/ExpressTest/css/nouislider.min.css?v7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="out-of-header">
+        <div class="menu-block">
+            <div class="container">
+                <a href="javascript:void(0)" class="head-menu close">
+                    <img src="https://static.sz.kz/landings/lotoDriveRally2/img/closeBtn.svg" alt="">
+                </a>
+
+                <div class="tabs">
+                    <a href="javascript:void(0)" class="tablinks tab1">
+                        <p>Главная</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab2">
+                        <p>Рейтинг</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab3">
+                        <p>лотереи</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab4">
+                        <p>faq</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab5">
+                        <p>призовой фонд</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab6">
+                        <p>инфо</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="welcome tabcontent" id="tabcontent1" data-tab="welcome">
+            <div class="container">
+                <div class="head-block">
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <video src="https://static.sz.kz/landings/lotoDriveRally2/img/финал.mp4" autoplay playsinline muted loop class="bgVideo"></video>
+
+                <div class="visual">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/visual.svg" alt="">
+                    </picture>
+                </div>
+
+                <div class="welcome-block">
+                    <div class="welcome-text">
+                        <div class="welcome-text__block">
+                            <div class="timerWrapper">
+                                <img src="https://static.sz.kz/landings/lotoDriveRally2/img/fond.svg" alt="">
+
+                                <div class="fond">
+                                    <p class="firstSpan">Призовой фонд</p>
+                                    <p class="allScore" id="out">4 265 000</p>
+                                </div>
+                            </div>
+
+                            <div class="timerWrapper">
+                                <img src="https://static.sz.kz/landings/lotoDriveRally2/img/timer.svg" alt="">
+
+                                <div class="timer__wrapper">
+                                    <p class="timerDo">До финиша:</p>
+                                    <div id="timerRetroDesk" class="timer timer-desk col">
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="days-block">
+                                                <span class="daysRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectDaysRetro text_num text_num-desk">д.</span>
+                                        </div>
+
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="hours-block">
+                                                <span class="hoursRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectHoursRetro text_num text_num-desk">ч.</span>
+                                        </div>
+
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="minutes-block">
+                                                <span class="minutesRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectMinutesRetro text_num text_num-desk">м.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" class="toReiting">
+                        <p>Посмотреть рейтинг</p>
+                    </a>
+
+                    <a href="https://static.sz.kz/landings/lotoDriveRally2/docs/LotoDrive_Mix_2.pdf" class="rules" target="_blank">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/download.svg" alt="">
+                        <p>условия проведения</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reiting tabcontent active" id="tabcontent2" data-tab="reiting">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toMain">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toGames">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>Рейтинг</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+                <div class="reiting-content">
+                    <div class="winners">
+                        <div class="winners-container">
+                            <img src="#" alt="">
+                            <h2 class="title">победители Lotodrive 30.01</h2>
+                            <ol class="winners-list" role="list">
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="winners-rating">
+                        <div class="winners-container">
+                            <h2 class="title">Текущий рейтинг</h2>
+                            <div class="rating-list-wrapper">
+                                <ol class="rating-list" role="list"></ol>
+                                <div class="current-player-wrapper" id="current-player-wrapper">
+                                    <h3 class="current-player-title">мое место - <span class="current-player-place"></span></h3>
+                                    <div class="current-player-score-wrapper">
+                                        <span class="current-player-label">Очки:</span>
+                                        <span class="current-player-score"></span>
+                                    </div>
+                                    <div class="current-player-actions-wrapper">
+                                        <!-- <div class="current-player-action up" role="button">
+                                        <a href="#" id="scroll-up-link"></a>
+                                        <img src="./assets/img/arrow.png" width="26" alt="">
+                                    </div> -->
+                                        <div class="current-player-action down" role="button">
+                                            Показать
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <template id="player-template">
+                    <li class="item">
+                        <div class="inner">
+                            <span class="place"></span>
+                            <div class="winner-avatar">
+                                <img src="#" class="avatar-img">
+                            </div>
+                            <div class="nick-wrapper">
+                                <span class="label">Никнейм:</span>
+                                <span class="nick"></span>
+                            </div>
+                            <div class="score-wrapper">
+                                <span class="label">Очки:</span>
+                                <span class="score"></span>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+
+                    <template id="winner-template">
+                    <li class="item">
+                        <div class="inner">
+                            <span class="place"></span>
+                            <div class="winner-avatar">
+                                 <img src="#" class="avatar-img"> 
+                            </div>
+                            <div class="nick-wrapper">
+                                <span class="label">Никнейм:</span>
+                                <span class="nick"></span>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+                </div>
+            </div>
+        </section>
+
+        <section class="games tabcontent" id="tabcontent3" data-tab="games">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toReiting">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toFaq">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>лотереи</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="games-blocks">
+                    <div class="game-blocks">
+                        <a href="/game?gameid=1079" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/649.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1084" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/536.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1082" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/tb.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1186" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/bingoTurbo.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1088" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/plinqo.png" srcset="https://static.sz.kz/landings/lotoDriveRally2/img/plinqo-2x.png 2x" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1189" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/RD.png" srcset="https://static.sz.kz/landings/lotoDriveRally2/img/RD-2x.png 2x" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq tabcontent" id="tabcontent4" data-tab="faq">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toGames">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toPrizes">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>faq</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="faq-block">
+                    <h2>Часто задаваемые вопросы</h2>
+                    <div class="accordion">
+                        <p class="accordion__text">Что такое «LotoDrive Rally 2»</p>
+                        <div class="accordion__body">
+                            <p>
+                                Завершаем зиму яркой лотогонкой! В «LotoDrive Rally», каждый найдет то, что ему по душе: тиражные лотереи с многомиллионными призами или динамичные моментальные лотереи, с мгновенными розыгрышами. Участников ожидает много сюрпризов, кто-то может сорвать
+                                Джекпот, а кому-то может повезти выиграть новый кроссовер!
+                            </p> <br>
+                            <p>Покупайте билеты лотерей LOTO 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 и Red Crystal получайте очки рейтинга за покупку. Призовой фонд будет распределен среди 100 участников, которые наберут наибольшее количество очков.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">Об акции «LotoDrive Rally 2»</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Кто организатор акции «LotoDrive Rally 2»
+                            </p>
+                            <ul>
+                                <li>Организатор акции: АО "Сәтті Жұлдыз". Адрес: г. Алматы, Жетысуский район, проспект Нұрсұлтан Назарбаев, 28</li>
+                            </ul>
+                            <p class="podZagolovok">Кто может принять участие в акции?</p>
+                            <ul>
+                                <li>Физические лица, достигшие совершеннолетия, зарегистрированные в личном кабинете на&nbsp;сайте <a href="https://sz.kz" target="_blank">sz.kz</a></li>
+                            </ul>
+                            <p class="podZagolovok">В&nbsp;какие сроки проводится акция?</p>
+                            <ul>
+                                <li> Срок проведения акции: с 19.02.2024 10:00:01 (время Астаны) по&nbsp;29.02.24&nbsp;19:59:59</li>
+                            </ul>
+                            <p class="podZagolovok">Как принять участие в&nbsp;акции?</p>
+                            <ul>
+                                <li>
+                                    Зарегистрироваться на сайте <a href="https://sz.kz" target="_blank">sz.kz</a>, перейти на&nbsp;страницу с профилем, выбрать «Никнейм» (Вымышленное виртуальное и&nbsp;уникальное имя, используемое участником в&nbsp;период
+                                    проведения акций).
+                                </li>
+
+                                <li>Ознакомиться с условиями акции.</li>
+
+                                <li>Покупать билеты тиражных лотерей LOTO 6/49, 5/36, TeleBingo, BingoТо и моментальных лотерей: Plinqo, Bingo&nbsp;75 и Red Crystal, в период проведения акции и следить за рейтингом на специальной странице LotoDrive Rally
+                                    https://sz.kz/lotodrive-mix-2
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">Участникам акции «LotoDrive Rally 2»</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Что такое «очки рейтинга»?
+                            </p>
+                            <ul>
+                                <li>
+                                    Очки рейтинга - награда за покупку в лотереях LOTO 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 и Red Crystal в период проведения Акции
+                                </li>
+                            </ul>
+                            <p class="podZagolovok">
+                                Что такое Рейтинг?
+                            </p>
+                            <ul>
+                                <li>
+                                    «Рейтинг» – это числовой показатель участника акции, меняющийся в&nbsp;режиме реального времени с&nbsp;интервалом в&nbsp;15&nbsp;минут.
+                                </li>
+                            </ul>
+
+                            <p class="podZagolovok">
+                                Как считается рейтинг?
+                            </p>
+                            <ul>
+                                <li>
+                                    Очки рейтинга начисляются только в случае покупки лотерей, участвующих в Акции, за тенге.
+                                    <br> 1 очко рейтинга = 100 тенге.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">Призовой Фонд акции «LotoDrive Rally 2» </p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">Какой призовой фонд акции?</p>
+                            <p>Призовой фонд акции состоит из&nbsp;базового ПФ&nbsp;и&nbsp;накопительного ПФ. </p>
+                            <p>Базовый призовой фонд (БПФ): 2&nbsp;миллиона 700&nbsp;тысяч тенге + 1&nbsp;миллион 320&nbsp;тысяч бонусов + 100 Алмазных лотобоксов. </p>
+                            <p>Накопительный призовой фонд (НПФ): 2% от суммы продаж билетов лотерей LOTO 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 и Red Crystal в период проведения акции.
+                            </p>
+                            <br>
+                            <ul>
+                                <li><span>1 место: 1&nbsp;приз - 1&nbsp;000&nbsp;000&nbsp;тенге + 15%&nbsp;НПФ</span></li>
+                                <li><span>2 место: 1&nbsp;приз - 700&nbsp;000&nbsp;тенге + 12.5%&nbsp;НПФ</span></li>
+                                <li><span>3 место: 1&nbsp;приз - 500&nbsp;000&nbsp;тенге + 10%&nbsp;НПФ</span></li>
+                                <li><span>4 место: 1&nbsp;приз - 300&nbsp;000&nbsp;тенге + 7.5%&nbsp;НПФ</span></li>
+                                <li><span>5 место: 1&nbsp;приз - 200&nbsp;000&nbsp;тенге + 5%&nbsp;НПФ</span></li>
+                                <li>6-10 место: 5&nbsp;призов по&nbsp;75&nbsp;000&nbsp;бонусов + 20%&nbsp;НПФ</li>
+                                <li>11-25 место 15&nbsp;призов по&nbsp;30&nbsp;000&nbsp;бонусов + 17%&nbsp;НПФ</li>
+                                <li>26-50 место 25&nbsp;призов по&nbsp;10&nbsp;000&nbsp;бонусов + 13%&nbsp;НПФ</li>
+                                <li>51-100 место 50&nbsp;призов по&nbsp;2 Алмазных лотобокса</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">Победители акции «LotoDrive Rally 2»</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Как определяются победители акции?
+                            </p>
+                            <ul>
+                                <li>Победители определяется после завершения акции, путем подсчета очков рейтинга, среди всех участников, выполнивших все условия акции, раньше остальных.</li>
+                            </ul>
+                            <p class="podZagolovok">Где и&nbsp;когда можно ознакомиться со&nbsp;списком участников-победителей?
+                            </p>
+                            <ul>
+                                <li>Итоги акции будут размещены до&nbsp;6&nbsp;марта 2024 года на&nbsp;странице https://sz.kz/lotodrive-mix-2, в&nbsp;виде списка победителей с&nbsp;указанием маскированного номера телефона победителя (например, 7 701 9** *3
+                                    83), позиции рейтинга с&nbsp;указанием даты и&nbsp;времени (Астаны) последнего начисления очков.
+                                </li>
+
+                                <li>Претензии и замечания от Участников Акции по&nbsp;начислению очков рейтинга и&nbsp;итоговой позиции в&nbsp;рейтинге принимаются до&nbsp;объявления официальных итогов Акции, не позднее 5 &nbsp;марта 2024&nbsp;года посредством
+                                    обращения Участника Акции в контакт-центр по телефону: 8 800 080-52-00.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">О награждении победителей акции «LotoDrive Rally 2»</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Как можно получить денежный приз?
+                            </p>
+                            <ul>
+                                <li>Победители смогут оформить и получить свой приз в ближайшем для них офисе Организатора акции в срок не позднее 30&nbsp;календарных дней с момента уведомления о возможности получить приз.</li>
+                            </ul>
+                            <p class="podZagolovok">Нужно ли&nbsp;платить налог за&nbsp;полученный денежный приз?</p>
+                            <ul>
+                                <li>Согласно налоговому законодательству РК, выигрыши свыше 6-кратного размера МРП облагаются индивидуальным подоходным налогом у источника выплаты. Оплата подоходного налога происходит в виде удержания суммы налога из суммы
+                                    выигрыша Участника лотереи, согласно действующему Налоговому кодексу РК на момент получения выигрыша. Ставки вышеуказанного налога составляют: для резидентов РК – 10% (десять); не нерезидентов РК – 20% (двадцать).</li>
+                            </ul>
+                            <p class="podZagolovok">Когда и&nbsp;как будут зачислены бонусы победителям по&nbsp;окончанию акции?
+                            </p>
+                            <ul>
+                                <li>Бонусы победителем начисляются Организатор акции в&nbsp;течение 5&nbsp;рабочих дней с&nbsp;момента публикации итогов на&nbsp;личный кошелек победителя, и&nbsp;только один раз по&nbsp;результатам акции.
+                                    <br> 1&nbsp;бонус = 1&nbsp;тенге;
+                                    <br>Срок действия бонусов – 30 дней с момента начисления.
+                                </li>
+                            </ul>
+                            <p class="podZagolovok">Когда и как будут зачислены лотобоксы победителям по окончанию акции?
+                            </p>
+                            <ul>
+                                <li>Лотобоксы победителем начисляются Организатором акции в&nbsp;течение 5&nbsp;рабочих дней с момента публикации итогов в&nbsp;личный кабинет победителя, и&nbsp;только один раз по результатам акции.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prizes tabcontent" id="tabcontent5" data-tab="prizes">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toFaq">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toInfo">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>призовой фонд</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="prizes-text">
+                    <img src="https://static.sz.kz/landings/lotoDriveRally2/img/exMark.svg" alt="">
+                    <p class="text">Призовой фонд будет распределен между <span>топ&nbsp;100</span>&nbsp;участников</p>
+                </div>
+
+                <div class="prizes-all">
+                    <div class="prizes-sum">
+                        <p class="place place1">Место</p>
+                        <p class="numbers-cat">Победители</p>
+                        <p class="namePrize">Приз</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">1 место</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="first">1 000 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">2 место</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="second">700 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">3 место</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="third">500 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">4 место</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="fourth">300 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">5 место</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="fifth">200 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">6-10 место</p>
+                        <p>5</p>
+                        <p class="bonus increase" id="sixTen">75 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">11-25 место</p>
+                        <p>15</p>
+                        <p class="bonus increase" id="eleven25">30 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">26-50 место</p>
+                        <p>25</p>
+                        <p class="bonus increase" id="twentySix50">10 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">51-100 место</p>
+                        <p>50</p>
+                        <p class="increase" id="fiftyOne100">2 Алмазных лотобокса</p>
+                    </div>
+                </div>
+
+                <div class="visual">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/visual.svg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="info tabcontent" id="tabcontent6" data-tab="info">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toPrizes">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toMain">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>инфо</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="terms" data-tab="terms">
+                    <div class="terms-text">
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/oil.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Покупайте</h3>
+                                <p>Покупайте билеты тиражных и моментальных лотерей</p>
+                            </div>
+                        </div>
+
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/battery.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Получайте</h3>
+                                <p>получайте баллы рейтинга за покупки</p>
+                            </div>
+                        </div>
+
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/flag.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Выигрывайте</h3>
+                                <p>Призовой фонд акции будет распределен среди 100 победителей</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://static.sz.kz/landings/ExpressTest/script/nouislider.min.js?V3" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/countup.js"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js" defer></script>
+
+    <script src="js/main-plus.js" defer></script>
+</body>
+
+</html>

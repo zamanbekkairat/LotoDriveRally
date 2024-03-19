@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@300;400;500;0,700;1,700&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://static.sz.kz/landings/ExpressTest/css/nouislider.min.css?v7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="out-of-header">
+        <div class="menu-block">
+            <div class="container">
+                <a href="javascript:void(0)" class="head-menu close">
+                    <img src="https://static.sz.kz/landings/lotoDriveRally2/img/closeBtn.svg" alt="">
+                </a>
+
+                <div class="tabs">
+                    <a href="javascript:void(0)" class="tablinks tab1">
+                        <p>Басты бет</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab2">
+                        <p>Рейтинг</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab3">
+                        <p>лотереялар</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab4">
+                        <p>faq</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab5">
+                        <p>жүлде қоры</p>
+                    </a>
+                    <a href="javascript:void(0)" class="tablinks tab6">
+                        <p>инфо</p>
+                    </a>
+                </div>
+
+                <div class="visual">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/visual.svg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <section class="welcome tabcontent active" id="tabcontent1">
+            <div class="container">
+                <div class="head-block">
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <video src="https://static.sz.kz/landings/lotoDriveRally2/img/финал.mp4" autoplay playsinline muted loop class="bgVideo"></video>
+
+                <div class="visual">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/visual.svg" alt="">
+                    </picture>
+                </div>
+
+                <div class="welcome-block">
+                    <div class="welcome-text">
+                        <div class="welcome-text__block">
+                            <div class="timerWrapper">
+                                <img src="https://static.sz.kz/landings/lotoDriveRally2/img/fond.svg" alt="">
+
+                                <div class="fond">
+                                    <p class="firstSpan">Жүлде қоры</p>
+                                    <p class="allScore" id="out">4 265 000</p>
+                                </div>
+                            </div>
+
+                            <div class="timerWrapper">
+                                <img src="https://static.sz.kz/landings/lotoDriveRally2/img/timer.svg" alt="">
+
+                                <div class="timer__wrapper">
+                                    <p class="timerDo">Мәреге дейін:</p>
+                                    <div id="timerRetroDesk" class="timer timer-desk col">
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="days-block">
+                                                <span class="daysRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectDaysRetro text_num text_num-desk">к.</span>
+                                        </div>
+
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="hours-block">
+                                                <span class="hoursRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectHoursRetro text_num text_num-desk">с.</span>
+                                        </div>
+
+                                        <div class="timer-section timer-section-desk">
+                                            <div class="minutes-block">
+                                                <span class="minutesRally num num-desk">00</span>
+                                            </div>
+                                            <span class="uncorrectMinutesRetro text_num text_num-desk">м.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" class="toReiting">
+                        <p>Рейтингті қарау</p>
+                    </a>
+
+                    <a href="https://static.sz.kz/landings/lotoDriveRally2/docs/LotoDrive_Mix_2-kz.pdf" class="rules" target="_blank">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/download.svg" alt="">
+                        <p>Науқан шарттары</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reiting tabcontent" id="tabcontent2">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toMain">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toGames">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>Рейтинг</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+                <div class="reiting-content">
+                    <div class="winners">
+                        <div class="winners-container">
+                            <img src="#" alt="">
+                            <h2 class="title">Lotodrive жеңімпаздары 31.01</h2>
+                            <ol class="winners-list" role="list">
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="winners-rating">
+                        <div class="winners-container">
+                            <h2 class="title">Ағымдағы рейтинг</h2>
+                            <div class="rating-list-wrapper">
+                                <ol class="rating-list" role="list"></ol>
+                                <div class="current-player-wrapper" id="current-player-wrapper">
+                                    <h3 class="current-player-title">Менің орным - <span class="current-player-place"></span></h3>
+                                    <div class="current-player-score-wrapper">
+                                        <span class="current-player-label">ұпай:</span>
+                                        <span class="current-player-score"></span>
+                                    </div>
+                                    <div class="current-player-actions-wrapper">
+                                        <!-- <div class="current-player-action up" role="button">
+                                        <a href="#" id="scroll-up-link"></a>
+                                        <img src="./assets/img/arrow.png" width="26" alt="">
+                                    </div> -->
+                                        <div class="current-player-action down" role="button">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <template id="player-template">
+                    <li class="item">
+                        <div class="inner">
+                            <span class="place"></span>
+                            <div class="winner-avatar">
+                                <img src="#" class="avatar-img">
+                            </div>
+                            <div class="nick-wrapper">
+                                <span class="label">Никнейм:</span>
+                                <span class="nick"></span>
+                            </div>
+                            <div class="score-wrapper">
+                                <span class="label">ұпай:</span>
+                                <span class="score"></span>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+
+                    <template id="winner-template">
+                    <li class="item">
+                        <div class="inner">
+                            <span class="place"></span>
+                            <div class="winner-avatar">
+                                 <img src="#" class="avatar-img"> 
+                            </div>
+                            <div class="nick-wrapper">
+                                <span class="label">Никнейм:</span>
+                                <span class="nick"></span>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+                </div>
+            </div>
+        </section>
+
+        <section class="games tabcontent" id="tabcontent3">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toReiting">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toFaq">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>лотереялар</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="games-blocks">
+                    <div class="game-blocks">
+                        <a href="/game?gameid=1079" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/649.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1084" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/536.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1082" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/tb.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1186" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/bingoTurbo.svg" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1088" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/plinqo.png" srcset="https://static.sz.kz/landings/lotoDriveRally2/img/plinqo-2x.png 2x" alt="">
+                        </a>
+
+                        <a href="/game?gameid=1189" class="game-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/RD.png" srcset="https://static.sz.kz/landings/lotoDriveRally2/img/RD-2x.png 2x" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq tabcontent" id="tabcontent4">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toGames">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toPrizes">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>faq</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="faq-block">
+                    <h2>Жиі қойылатын сұрақтар</h2>
+                    <div class="accordion">
+                        <p class="accordion__text">«LotoDrive Rally 2» дегініміз не</p>
+                        <div class="accordion__body">
+                            <p>
+                                Қысты жарқын лотожарысымен аяқтаймыз! «LotoDrive Rally»-да әркім өзіне ұнайтын нәрсені таба алады: көп миллиондық ұтысы бар тиражды лотереялар немесе лездік ұтысы бар динамикалық лездік лотереялар. Қатысушыларды көптеген тосынсыйлар күтеді; кейбіреулері
+                                Джекпотқа ие болуы мүмкін, ал басқалары жаңа кроссоверді ұтып алу бақытына ие болуы мүмкін!
+                            </p> <br>
+                            <p>LOTO 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 және Red Crystal лоторея билеттерін сатып алғаны үшін рейтинг ұпайларын алыңыз. Жүлде қоры ең көп ұпай жинаған 100 қатысушыға бөлінеді.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">«LotoDrive Rally 2» науқаны туралы</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                «LotoDrive Rally 2» науқанының ұйымдастырушысы кім
+                            </p>
+                            <ul>
+                                <li>Науқан ұйымдастырушысы: «Сәтті Жұлдыз» АҚ. Мекенжайы: Алматы қ., Жетісу ауданы, Нұрсұлтан Назарбаев даңғылы, 28</li>
+                            </ul>
+                            <p class="podZagolovok">Науқанға кім қатыса алады?</p>
+                            <ul>
+                                <li> <a href="https://sz.kz" target="_blank">sz.kz</a> сайтында жеке кабинетін тіркеген, кәмелет жасқа толған тұлғалар</li>
+                            </ul>
+                            <p class="podZagolovok">Науқанның өту мерзімі қандай?</p>
+                            <ul>
+                                <li> СНауқан өтетін мерзім: 19.02.2024 10:00:01 (Астаны іақыты) 29.02.24&nbsp;19:59:59</li>
+                            </ul>
+                            <p class="podZagolovok">Науқанға қалай қатысуға болады?</p>
+                            <ul>
+                                <li>
+                                    <a href="https://sz.kz" target="_blank">sz.kz</a> сайтында тіркеліңіз, науқан қатысушысының профилі бар парақшаға өтіп, «Никнеймді» таңдаңыз (Науқан кезеңінде қатысушы қолданатын жалған виртуалды және бірегей есім).
+                                </li>
+
+                                <li>Науқанның шарттарымен танысу.</li>
+
+                                <li>Науқанның өткізілу кезеңінде LOTO 6/49, 5/36, TeleBingo, BingoТо иражды лотереяларын және Plinqo, Bingo&nbsp;75 және Red Crystal лездік лотереяларын сатып алу, арнайы LotoDrive Rally https://sz.kz/lotodrive-mix бетіндегі
+                                    рейтингті қадағалаңыз</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">«LotoDrive Rally 2» науқан қатысушыларына</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                «Рейтинг ұпайлары» дегеніміз не?
+                            </p>
+                            <ul>
+                                <li>
+                                    Рейтинг ұпайлары - LOTO 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 және Red Crystal лотереяларын сатып алғаны үшін сыйақы
+                                </li>
+                            </ul>
+                            <p class="podZagolovok">
+                                Рейтинг дегеніміз не?
+                            </p>
+                            <ul>
+                                <li>
+                                    «Рейтинг» - нақты уақыт режимінде 15 минуттық интервалмен өзгеретін науқанға қатысушының сандық көрсеткіші.
+                                </li>
+                            </ul>
+
+                            <p class="podZagolovok">
+                                Рейтинг қалай есептеледі?
+                            </p>
+                            <ul>
+                                <li>
+                                    Рейтинг билеттерді сатып алуға жұмсалған сома және салықтарды шегергендегі ұтыс сомасы ретінде есептеледі. АЕК-тің 6 еселенген мөлшерінен асатын ұтыс көзінен жеке табыс салығы салынады.
+                                    <br> 1 рейтинг ұпайы = 100 теңге.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">«LotoDrive Rally 2» науқанының жұлде қоры</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">Науқанның Жүлде қоры қандай?</p>
+                            <p>Науқанның жүлде қоры негізгі ЖҚ және жинақтаушы ЖҚ тұрады.</p>
+                            <p>Негізгі жүлде қоры (НЖҚ): 2 миллион 700 мың теңге + 1 миллион 320 мың бонус + 100 Гауһар лотобокс.</p>
+                            <p>Жинақтаушы жүлде қоры (ЖЖҚ): науқан кезеңінде 6/49, 5/36, TeleBingo, Plinqo, Bingo&nbsp;75 және Red Crystal лотереялар билеттерін сату сомасының 2%.
+                            </p>
+                            <br>
+                            <ul>
+                                <li><span>1 орын: 1&nbsp;жүлде - 1&nbsp;000&nbsp;000&nbsp;теңге + 15%&nbsp;ЖЖҚ</span></li>
+                                <li><span>2 орын: 1&nbsp;жүлде - 700&nbsp;000&nbsp;теңге + 12.5%&nbsp;ЖЖҚ</span></li>
+                                <li><span>3 орын: 1&nbsp;жүлде - 500&nbsp;000&nbsp;теңге + 10%&nbsp;ЖЖҚ</span></li>
+                                <li><span>4 орын: 1&nbsp;жүлде - 300&nbsp;000&nbsp;теңге + 7.5%&nbsp;ЖЖҚ</span></li>
+                                <li><span>5 орын: 1&nbsp;жүлде - 200&nbsp;000&nbsp;теңге + 5%&nbsp;ЖЖҚ</span></li>
+                                <li>6-10 орындар: 75&nbsp;000&nbsp;бонустан 5&nbsp;жүлде + 20%&nbsp;ЖЖҚ</li>
+                                <li>11-25 орындар 30&nbsp;000&nbsp;бонустан 15&nbsp;жүлде + 17%&nbsp;ЖЖҚ</li>
+                                <li>26-50 орындар 10&nbsp;000&nbsp;бонустан 25&nbsp;жүлде + 13%&nbsp;ЖЖҚ</li>
+                                <li>51-100 орындар 2 Гауhар лотобокстан 100&nbsp;жүлде</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text">«LotoDrive Rally 2» науқанының жеңімпаздары</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Науқан жеңімпаздары қалай анықталады?
+                            </p>
+                            <ul>
+                                <li>Жеңімпаздар науқан аяқталғаннан кейін, басқалардан бұрын науқанның барлық шарттарын орындаған барлық қатысушылардың арасында рейтингтік ұпайларды есептеу арқылы анықталады</li>
+                            </ul>
+                            <p class="podZagolovok">Жеңімпаздар тізімімен қайда және қашан танысуға болады?</p>
+                            <ul>
+                                <li>Науқан нәтижелері 2024 жылдың 6 наурызына дейін https://sz.kz/lotodrive-mix-2 сайтында орналастырылады, жеңімпаздың жасырылған телефон нөмірін (мысалы, 7 701 9** *3 83) көрсететін жеңімпаздар тізімі, соңғы ұпайлар есептелу
+                                    күні мен уақытын (Астана қаласы) көрсететін рейтингтік позициялар түрінде жарияланады
+                                </li>
+
+                                <li>Науқан Қатысушыларының рейтингтік ұпайларды есептеуге және қорытынды рейтингтегі позицияға қатысты шағымдары мен ескертулері Науқанның ресми нәтижелері жарияланғанға дейін, 2024 жылдың 5 наурызынан кешіктірмей Науқан Қатысушысының
+                                    8 800 080-52-00 нөмірі бойынша байланыс орталығына хабарласуы арқылы қабылданады.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <p class="accordion__text"> «LotoDrive Rally 2» жеңімпаздарын марапаттау туралы</p>
+                        <div class="accordion__body">
+                            <p class="podZagolovok">
+                                Ақшалай жүлдені қалай алуға болады?
+                            </p>
+                            <ul>
+                                <li>Ақшалай жүлденің жеңімпазы жүлдені алу мүмкіндігі туралы хабарлама алған сәттен бастап 30 күнтізбелік күннен кешіктірмей Науқанды ұйымдастырушының жақын жердегі кеңсесінде өз жүлдесін ресімдеп, ала алады.</li>
+                            </ul>
+                            <p class="podZagolovok">Алынған ақшалай жұлде үшін салық төлеу керек&nbsp;пе?</p>
+                            <ul>
+                                <li>ҚР салық заңнамасына сәйкес АЕК-тің 6 еселенген мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы салынады. Табыс салығын төлеу ҚР қолданыстағы Салық кодексіне сәйкес ұтысты алған кезде Лотереяға Қатысушының ұтысының
+                                    сомасынан салық сомасын ұстау түрінде жүзеге асырылады. Жоғарыда аталған салықтың мөлшерлемелері: ҚР резиденттері үшін – 10%; ҚР бейрезиденттері үшін – 20% (жиырма).</li>
+                            </ul>
+                            <p class="podZagolovok">Науқанның соңында жеңімпаздарға бонустар қашан және қалай аударылады?
+                            </p>
+                            <ul>
+                                <li>Жеңімпаздарға бонустар науқан ұйымдастырушысы жеңімпаздың жеке әмиянына қорытындылар жарияланған сәттен бастап 5 жұмыс күні ішінде және науқан нәтижелері бойынша бір рет қана есептеледі.
+                                    <br> 1&nbsp;бонус = 1&nbsp;теһңге;
+                                    <br>Бонустар есептелген күннен бастап 30 күн ішінде жарамды.
+                                </li>
+                            </ul>
+                            <p class="podZagolovok">Науқанның соңында жеңімпаздарға бонустар қашан және қалай аударылады?
+                            </p>
+                            <ul>
+                                <li>Лотобокстарды Науқанды Ұйымдастырушы жеңімпаздың жеке кабинетінде нәтижелер жарияланған күннен бастап 5 жұмыс күні ішінде және науқан нәтижелері бойынша бір рет қана есептейді.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prizes tabcontent" id="tabcontent5">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toFaq">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toInfo">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>жұлде қоры</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="prizes-text">
+                    <img src="https://static.sz.kz/landings/lotoDriveRally2/img/exMark.svg" alt="">
+                    <p class="text">Жүлде қоры <span>топ&nbsp;100</span> қатысушы арасында бөлінеді</p>
+                </div>
+
+                <div class="prizes-all">
+                    <div class="prizes-sum">
+                        <p class="place place1">Орын</p>
+                        <p class="numbers-cat">Жеңімпаздар</p>
+                        <p class="namePrize">Орын</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">1 орын</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="first">1 000 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">2 орын</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="second">700 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">3 орын</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="third">500 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">4 орын</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="fourth">300 000</p>
+                    </div>
+
+                    <div class="prizes-sum prizesSum5">
+                        <p class="place">5 орын</p>
+                        <p>1</p>
+                        <p class="tenge increase" id="fifth">200 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">6-10 орын</p>
+                        <p>5</p>
+                        <p class="bonus increase" id="sixTen">75 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">11-25 орындар</p>
+                        <p>15</p>
+                        <p class="bonus increase" id="eleven25">30 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">26-50 орындар</p>
+                        <p>25</p>
+                        <p class="bonus increase" id="twentySix50">10 000</p>
+                    </div>
+
+                    <div class="prizes-sum">
+                        <p class="place">51-100 орындар</p>
+                        <p>50</p>
+                        <p class="increase" id="fiftyOne100">2 Гауhар лотобокс</p>
+                    </div>
+                </div>
+
+                <div class="visual">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/visual.svg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="info tabcontent" id="tabcontent6">
+            <div class="container">
+                <div class="head-block">
+                    <div class="headBtn">
+                        <a href="javascript:void(0)" class="toPrizes">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/prev.svg" alt="">
+                        </a>
+
+                        <a href="javascript:void(0)" class="toMain">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/next.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p>инфо</p>
+
+                    <a href="javascript:void(0)" class="head-menu">
+                        <img src="https://static.sz.kz/landings/lotoDriveRally2/img/menu-burger.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="terms" data-tab="terms">
+                    <div class="terms-text">
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/oil.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Сатып алыңыз</h3>
+                                <p>Тиражды және лездік лотереяларын сатып алыңыз</p>
+                            </div>
+                        </div>
+
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/battery.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Алыңыз</h3>
+                                <p>Сатып алғаныңыз үшін рейтинг ұпайларын алыңыз</p>
+                            </div>
+                        </div>
+
+                        <div class="terms-block">
+                            <img src="https://static.sz.kz/landings/lotoDriveRally2/img/flag.svg" alt="">
+                            <div class="terms-block__item">
+                                <h3>Ұтыңыз</h3>
+                                <p>Науқанның жүлде қоры 100 жеңімпаз арасында бөлінеді</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://static.sz.kz/landings/ExpressTest/script/nouislider.min.js?V3" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/countup.js"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js" defer></script>
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
